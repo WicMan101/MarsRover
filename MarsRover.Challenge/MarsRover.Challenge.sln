@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{C07D0830-EDFD-4F4A-8356-18BE6791A004}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommincationFile", "CommincationFile", "{4428B6A6-F9E0-45A2-9F50-1E1A50617154}"
+	ProjectSection(SolutionItems) = preProject
+		CommunicationFile\Communication.txt = CommunicationFile\Communication.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarsRover.Challenge.Run", "Source\MarsRover.Challenge.Run\MarsRover.Challenge.Run.csproj", "{B6ACC7FC-BB21-413C-ADC7-99852A8A4FFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarsRover.Challenge.Tests", "Source\MarsRover.Challenge.Tests\MarsRover.Challenge.Tests.csproj", "{45B69222-98C6-42DB-9A34-4600ADFF83A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarsRover.Challenge.Logic", "Source\MarsRover.Challenge.Logic\MarsRover.Challenge.Logic.csproj", "{3EFCE538-53A9-4E2A-8657-3BE5A243F98A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8593FF8A-9240-4AC9-A676-E33E8D48DBF3}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6ACC7FC-BB21-413C-ADC7-99852A8A4FFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6ACC7FC-BB21-413C-ADC7-99852A8A4FFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6ACC7FC-BB21-413C-ADC7-99852A8A4FFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6ACC7FC-BB21-413C-ADC7-99852A8A4FFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45B69222-98C6-42DB-9A34-4600ADFF83A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45B69222-98C6-42DB-9A34-4600ADFF83A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45B69222-98C6-42DB-9A34-4600ADFF83A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45B69222-98C6-42DB-9A34-4600ADFF83A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EFCE538-53A9-4E2A-8657-3BE5A243F98A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EFCE538-53A9-4E2A-8657-3BE5A243F98A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EFCE538-53A9-4E2A-8657-3BE5A243F98A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EFCE538-53A9-4E2A-8657-3BE5A243F98A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B6ACC7FC-BB21-413C-ADC7-99852A8A4FFD} = {C07D0830-EDFD-4F4A-8356-18BE6791A004}
+		{45B69222-98C6-42DB-9A34-4600ADFF83A1} = {C07D0830-EDFD-4F4A-8356-18BE6791A004}
+		{3EFCE538-53A9-4E2A-8657-3BE5A243F98A} = {C07D0830-EDFD-4F4A-8356-18BE6791A004}
+	EndGlobalSection
+EndGlobal
